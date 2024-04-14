@@ -5,7 +5,10 @@ class Restaurante:
 
 
 restaurante_praça = Restaurante()
+restaurante_praça.nome = 'Praça'
+restaurante_praça.categoria = 'Gourmet'
+
 restaurante_pizza = Restaurante()
 
 restaurantes = [restaurante_praça, restaurante_pizza]
-print(restaurantes)
+print(vars(restaurante_praça))
